@@ -1,0 +1,44 @@
+body{
+background-image:url("back.jpg");
+}
+div.header{
+padding:20px;
+font-style:courier;
+color:rgb(163,233,225);
+}
+div.about_me{
+height:200;
+width:600;
+position:relative;
+top:-200px;
+left:500px;
+line-height:180%;
+font:20px georgia;
+}
+img{
+position:relative;
+left:100px;
+top:10px;
+}
+div.what_do{
+position:relative;
+top:-150px;
+left:100px;
+width:1050px;
+font:20px georgia;
+
+}
+div.contact_me{
+position:relative;
+top:-100px;
+left:100px;
+width:1050px;
+line-height:2000%;
+}
+h3{
+font:30px "courier";
+color:rgb(231,216,215);}
+p,center{
+line-height:200%;
+color:rgb(252,249,120);
+}
