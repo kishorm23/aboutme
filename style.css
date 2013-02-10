@@ -10,5 +10,6 @@ h3{ font:30px "courier"; color:rgb(231,216,215);}
 p,center{ line-height:200%; color:rgb(252,249,120); } 
 a{ text-decoration:none; color:rgb(231,216,215); } 
 div.nav_pane{	     padding:5px;     background-color:rgba(200,200,200,0.4); 	border-width:1px; 	text-align:right; 	width:1100px; 	position:relative; 	left:-50px; 	border-radius:10px; } 
-#nav{ display:inline-block; background-color:rgba(200,200,200,0.4); border-radius: 10px;     padding:10px; 	margin-left:5px; 	margin-right:10px; 	text-decoration:none; 	-webkit-transition:-webkit-transform 1s,background 1s;} 
-#nav:hover{ 	background-color:rgba(2,200,200,0.6); -webkit-transform:scale(1.08,1.08);}
+#nav1,#nav2,#nav3,#nav{ display:inline-block; background-color:rgba(200,200,200,0.4); border-radius: 10px;     padding:10px; 	margin-left:5px; 	margin-right:10px; 	text-decoration:none; 	-webkit-transition:-webkit-transform 1s,background 1s;} 
+#nav1:hover,#nav2:hover,#nav3:hover,#nav:hover{ 	background-color:rgba(2,200,200,0.6); 	-webkit-transform:scale(1.08,1.08);}
+div.footer{top:-3000;}
