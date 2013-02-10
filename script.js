@@ -1,4 +1,3 @@
-
 function countdown(){
 var current=new Date();
 var month=current.getMonth();
@@ -55,16 +54,25 @@ function show1()
 document.getElementById("about_me").style.visibility='visible';
 document.getElementById("what_do").style.visibility='hidden';
 document.getElementById("contact_me").style.visibility='hidden';
+document.getElementById("nav1").style.background="rgba(2,200,200,0.6)";
+document.getElementById("nav2").style.background="rgba(200,200,200,0.4)";
+document.getElementById("nav3").style.background="rgba(200,200,200,0.4)";
 }
 function show2()
 {
 document.getElementById("about_me").style.visibility='hidden';
 document.getElementById("what_do").style.visibility='visible';
 document.getElementById("contact_me").style.visibility='hidden';
+document.getElementById("nav2").style.background="rgba(2,200,200,0.6)";
+document.getElementById("nav1").style.background="rgba(200,200,200,0.4)";
+document.getElementById("nav3").style.background="rgba(200,200,200,0.4)";
 }
 function show3()
 {
 document.getElementById("what_do").style.visibility='hidden';
 document.getElementById("about_me").style.visibility='hidden';
 document.getElementById("contact_me").style.visibility='visible';
+document.getElementById("nav3").style.background="rgba(2,200,200,0.6)";
+document.getElementById("nav1").style.background="rgba(200,200,200,0.4)";
+document.getElementById("nav2").style.background="rgba(200,200,200,0.4)";
 }
