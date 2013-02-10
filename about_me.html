@@ -1,44 +1,42 @@
+<!DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 4.01 Transitional//EN”
+“http://www.w3.org/TR/html4/loose.dtd”>
 <html>
 <head>
 <title>Kishor Mohite | About me</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <script type="text/javascript" src="script.js"></script>
 </head>
-<body onmousemove=changePosition() onload=countdown()>
+<body onmousemove=changePosition(parity) onload=countdown() id="header">
 <div id="bday_reminder" style='position:absolute;font:25px "comic sans ms";color:rgba(235,250,200,0.8);'></div>
 <div class="header">
-<h1>Kishor Mohite</h1>
+<h1 id="name_1">Kishor Mohite</h1>
 </div>
 <center>
-<div class="nav_pane"><h2><a href="#about_me" class="nav">about me</a> <a href="#what_do" class="nav">What do I do?</a> <a href="#contact_me" class="nav">contact me</a></h2></div>
+<div class="nav_pane"><h2><div id="nav"><a href="#" onclick=show1()>About Me</a></div> <div id="nav"><a href="#" onclick=show2()>What do I do?</a></div> <div id="nav"><a href="#" onclick=show3()>Contact Me</a></div> <div id="nav"><a href="#" class="nav" onclick=set()><div id="tog">unstick</div></a></div></h2></div>
 </center><br><br>
-<img src="me.jpg" height="250" width="250" alt="Kishor Mohite">
-<a name="about_me"></a>
-<div class="about_me">
+<img src="me.jpg" height="250" width="270" alt="Kishor Mohite">
+<div class="about_me" id="about_me">
 <h3>About me</h3>
 <hr>
 <p>Hello there, I'm 18 year old student pursuing B Tech in computer science and engineering at <a href="http://iitr.ac.in" target="new">Indian Institute of Technology, Roorkee</a>. I'm basically from Aurangabad, Maharashtra. 
 I love to explore new things related to computers.
 </p>
 </div>
-<a name="what_do"></a>
-<div class="what_do">
+<div class="what_do" id="what_do">
 <h3>What do I do?</h3>
 <hr>
 <p>When I was in my high school I used to build windows applications in .net, 
-after that I had real test of programming in C++. I've built webpages with php. I also know primers of Backtrack and hacking, I'm working on improving my CSS skills. Currently I'm working here as programmer at <a href="http://www.facebook.com/SDSLabs" target="new">SDSLabs</a> and web developer for <a href="http://www.facebook.com/geekgazette" target="new">Geek Gazette</a>. <a href="http://www.facebook.com/SDSLabs" target="new">SDSLabs</a> is a group of like minded people who have extraordinary love for technology.
+after that I had real taste of programming in C++. I've built webpages with php. I also know primers of Backtrack and hacking, I'm working on improving my CSS skills. Currently I'm working here as programmer at <a href="http://www.facebook.com/SDSLabs" target="new">SDSLabs</a> and web developer for <a href="http://www.facebook.com/geekgazette" target="new">Geek Gazette</a>. <a href="http://www.facebook.com/SDSLabs" target="new">SDSLabs</a> is a group of like minded people who have extraordinary love for technology.
 </p>
 </div>
-<a name="contact_me"></a>
-<div class="contact_me">
+<div class="contact_me" id="contact_me">
 <h3>Contact Me</h3>
 <hr><a href="mailto:kishormohite888@gmail.com"><img src="gmail-logo.png" height="50" width="50"></a> 
 <a href="http://facebook.com/kishormohite.23"><img src="facebook_logo.png" height="50" width="50"></a> 
 <a href="http://twitter.com/kishmohite"><img src="twitter-logo.png" height="50" width="50"></a>
 </div>
-<footer>
-<hr>
-<center>Kishor Mohite</center>
-</footer>
+<script type = "text/javascript">
+show1();
+</script>
 </body>
 </html>
