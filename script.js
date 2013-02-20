@@ -67,6 +67,8 @@ document.getElementById("contact_me").style.visibility='hidden';
 document.getElementById("nav2").style.background="rgba(2,200,200,0.6)";
 document.getElementById("nav1").style.background="rgba(200,200,200,0.4)";
 document.getElementById("nav3").style.background="rgba(200,200,200,0.4)";
+document.getElementById("nav3").style.background.hover="rgba(2,200,200,0.6)";
+
 }
 function show3()
 {
