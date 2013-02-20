@@ -3,17 +3,17 @@
 <html>
 <head>
 <title>Kishor Mohite | About me</title>
-<link rel="stylesheet" type="text/css" href="style.css">
 <script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body onmousemove=changePosition(parity) onload=countdown() id="header">
+<body onmousemove=changePosition(parity) onload=countdown()>
 <div id="bday_reminder" style='position:absolute;font:25px "comic sans ms";color:rgba(235,250,200,0.8);'></div>
 <div class="header">
-<h1 id="name_1">Kishor Mohite</h1>
+<h1 id="name_1"> Kishor Mohite </h1>
 </div>
-<center>
-<div class="nav_pane"><h2><div id="nav1"><a href="#" onclick=show1()>About Me</a></div> <div id="nav2"><a href="#" onclick=show2()>What do I do?</a></div> <div id="nav3"><a href="#" onclick=show3()>Contact Me</a></div> <div id="nav"><a href="#" class="nav" onclick=set()><div id="tog">unstick</div></a></div></h2></div>
-</center><br><br>
+<div class="nav_pane"><h2><div id="nav1"><a href="#" onclick=show1()>About Me</a></div> <div id="nav2"><a href="#" onclick=show2() style='nav2.hover{background:rgba(100,100,100,0.8)'>What do I do?</a></div> <div id="nav3"><a href="#" onclick=show3()>Contact Me</a></div> <div id="nav"><a href="#" class="nav" onclick=set()><div id="tog">unstick</div></a></div></h2></div>
+<br><br>
+<div class="content">
 <img src="me.jpg" height="250" width="270" alt="Kishor Mohite">
 <div class="about_me" id="about_me">
 <h3>About me</h3>
@@ -31,9 +31,11 @@ after that I had real taste of programming in C++. I've built webpages with php.
 </div>
 <div class="contact_me" id="contact_me">
 <h3>Contact Me</h3>
-<hr><a href="mailto:kishormohite888@gmail.com"><img src="gmail-logo.png" height="50" width="50"></a> 
+<hr><div id="links"><a href="mailto:kishormohite888@gmail.com"><img src="gmail-logo.png" height="50" width="50"></a> 
 <a href="http://facebook.com/kishormohite.23"><img src="facebook_logo.png" height="50" width="50"></a> 
 <a href="http://twitter.com/kishmohite"><img src="twitter-logo.png" height="50" width="50"></a>
+</div>
+</div>
 </div>
 <script type = "text/javascript">
 show1();
